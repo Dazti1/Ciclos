@@ -1,0 +1,30 @@
+import os
+
+k=1
+while k<10:
+   print(k, end=", ")
+   k=k+1
+print("Fin de ejecución.")
+
+os.system("cls")
+j=100
+while j>=0:
+   print(j, end=(", "))
+   j=j-10
+
+os.system("cls")
+k=1
+j=1
+while k!=101:
+    print(j, end=(", "))
+    j=j+2
+    k=k+1
+
+x=1
+y=2
+while x!=11:
+    print(y, end=", ")
+    x=x+1
+    y=y*2
+
+print("Fin de ejecución.")

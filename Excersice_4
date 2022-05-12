@@ -1,0 +1,35 @@
+import os
+
+os.system("cls")
+opcion=""
+while True:
+    print("----Mini calculadora---")
+    opcion=str(input("""
+----Menú----
+1.- SUMAR
+2.- MULTIPLICAR
+3.- SALIR
+
+Elija una opción:   """))
+    
+    if opcion=="1":
+        numero1=int(input("""
+Su primer número a sumar:   """))
+        numero2=int(input("""
+Segundo número a sumar:   """))
+        resultado = numero1 + numero2
+        print("Su resultado es: ", resultado)    
+    elif opcion=="2":
+        numero1=int(input("""
+Su primer número a multiplicar:   """))
+        numero2=int(input("""
+Segundo número a multiplicar:   """))  
+        resultado = numero1 * numero2
+        print("Su resultado es: ", resultado)
+    elif opcion=="3":
+        confirmacion=str(input("""
+¿Seguro qué quiere salir? S/N   """))
+        if confirmacion=="S":
+            break
+        elif confirmacion=="N":
+            print("Volviendo al menú principal.\n")

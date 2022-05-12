@@ -1,0 +1,19 @@
+import os
+# Ciclos: Son instrucciones que nos permiten
+# iterar (repetir) un conjunto de instrucciones
+# tants veces sea necesario
+# Python tiene dos ciclos: for y while
+
+# range(n)= 0....hasta n-1
+os.system("cls")
+for k in range(10):
+    print(k)
+    
+os.system("cls")    
+for k in range(2,10):
+    print(k, end=""", 
+""")
+
+os.system("cls")
+for k in range(2,11,2):
+    print(k)
